@@ -15,6 +15,7 @@ img {
   margin: 20px;
 }
 
+/* fonte */
 @font-face {
   font-family: lemonmilk;
   src: url(/fonts/lemonmilk-medium-webfont.woff2);
@@ -24,6 +25,7 @@ img {
   src: url(/fonts/din-bold-webfont.woff2);
 }
 
+/* header */
 .banner {
   padding: 2rem;
   margin-top: 10px;
