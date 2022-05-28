@@ -1,5 +1,17 @@
-img {
-  width: 100%;
-  height: auto;
-  display: block;
+html {
+  background-image: url(/images/background_galleri.png);
+  max-width: none;
+  background-size: cover;
+  background-repeat: repeat;
+}
+.overskrift {
+  display: flex;
+  padding-block: 20px;
+}
+
+.galleri_titel {
+  writing-mode: vertical-rl;
+  margin: 0;
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
