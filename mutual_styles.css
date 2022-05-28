@@ -12,12 +12,16 @@ main {
 img {
   width: 100%;
   height: auto;
-  margin: 30px;
+  margin: 20px;
 }
 
 @font-face {
   font-family: lemonmilk;
   src: url(/fonts/lemonmilk-medium-webfont.woff2);
+}
+@font-face {
+  font-family: dincondensed;
+  src: url(/fonts/din-bold-webfont.woff2);
 }
 
 .banner {
@@ -36,7 +40,7 @@ header .logo {
   height: 60px;
 }
 .main-menu {
-  font-family: lemonmilk;
+  font-family: dincondensed;
 }
 
 .main-menu ul {
