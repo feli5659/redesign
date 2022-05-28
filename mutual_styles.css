@@ -1,14 +1,30 @@
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
   height: auto;
-  padding-block: 10px;
+  margin: 30px;
+}
+header .logo {
+  background-image: url(/images/logo2.png);
+  background-size: cover;
 }
 
 .banner {
   padding: 2rem;
+  margin-top: 10px;
   display: flex;
-  flex-flow: wrap; /* når der ikke er plads mere - rykker den ned under */
-  justify-content: space-between;
+  flex-flow: wrap;
+  justify-content: space-between; /* når der ikke er plads mere - rykker den ned under */
 }
 
 .main-menu ul {
