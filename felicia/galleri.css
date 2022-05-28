@@ -39,11 +39,50 @@ html {
   font-family: dincondensed;
 }
 
+.image6 {
+  margin-bottom: 80px;
+}
+
 .img2,
 .img3,
 .overskrift_2 {
   background-color: white;
   filter: drop-shadow(10px 10px 4px #2b2b2e);
-  padding: 50px;
+  padding: 20px;
   display: flex;
 }
+
+.youtube {
+  background-color: white;
+  filter: drop-shadow(10px 10px 4px #2b2b2e);
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.youtube2 {
+  align-items: center;
+  margin: 80px;
+}
+
+/* @media (max-width: 1200px) {
+  .galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+  }
+
+  .image1 {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+
+  .image2 {
+    grid-column: 2 / span 2;
+  }
+  .image5 {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+  }
+  
+} */
