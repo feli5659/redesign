@@ -12,7 +12,10 @@ main {
 img {
   width: 100%;
   height: auto;
-  margin: 20px;
+}
+
+.main-menu a:hover {
+  border-bottom: 5px solid orange;
 }
 
 /* fonte */
