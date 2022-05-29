@@ -1,0 +1,235 @@
+/* .intro_video {
+} */
+
+.introduktion_indhold {
+  background-color: white;
+  box-shadow: 5px 5px 20px 1px grey;
+  margin-inline: 0.5rem;
+  padding: 2rem;
+}
+
+/*---------------MANIFEST-------------------*/
+
+.container2-1 {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  grid-template-rows: 4rem 4rem 1fr 2rem;
+}
+.manifest_indhold1 {
+  background-color: white;
+  box-shadow: 5px 3px 20px 1px grey;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  padding: 3rem;
+  padding-top: 7.5rem;
+  margin: 1rem;
+
+  line-height: 1.3rem;
+}
+
+.box1 {
+  background-color: #454c81;
+  box-shadow: 5px 5px 20px 1px grey;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 3rem;
+  padding-block: 4rem;
+  padding-top: 3rem;
+
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+/*------------*/
+
+.container2-2 {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  grid-template-rows: 4rem 4rem 1fr 2rem;
+}
+.manifest_indhold2 {
+  background-color: white;
+  box-shadow: 5px 3px 20px 1px grey;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  padding: 3rem;
+  padding-top: 8rem;
+  margin: 1rem;
+
+  line-height: 1.3rem;
+}
+
+.box2 {
+  background-color: #a27b54;
+  box-shadow: 5px 5px 20px 1px grey;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 3rem;
+  padding-block: 5rem;
+  padding-top: 3rem;
+
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+/*------------*/
+
+.container2-3 {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  grid-template-rows: 4rem 4rem 1fr 2rem;
+}
+.manifest_indhold3 {
+  background-color: white;
+  box-shadow: 5px 3px 20px 1px grey;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  padding: 3rem;
+  padding-top: 8rem;
+  margin: 1rem;
+
+  line-height: 1.3rem;
+}
+
+.box3 {
+  background-color: #b3bf58;
+  box-shadow: 5px 5px 20px 1px grey;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 3rem;
+  padding-block: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+/*------------*/
+
+.container2-4 {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  grid-template-rows: 4rem 4rem 1fr 2rem;
+}
+.manifest_indhold4 {
+  background-color: white;
+  box-shadow: 5px 3px 20px 1px grey;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  padding: 3rem;
+  padding-top: 8rem;
+  margin: 1rem;
+
+  line-height: 1.3rem;
+}
+
+.box4 {
+  background-color: #e2a83b;
+  box-shadow: 5px 5px 20px 1px grey;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+
+  text-align: center;
+  z-index: 1;
+  color: white;
+}
+
+/*------------*/
+
+.container2-5 {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  grid-template-rows: 4rem 4rem 1fr 2rem;
+}
+.manifest_indhold5 {
+  background-color: white;
+  box-shadow: 5px 3px 20px 1px grey;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  padding: 3rem;
+  padding-top: 9rem;
+  margin: 1rem;
+
+  line-height: 1.3rem;
+}
+
+.box5 {
+  background-color: #454c81;
+  box-shadow: 5px 5px 20px 1px grey;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 3rem;
+  padding-block: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  line-height: 1.5rem;
+  z-index: 1;
+  color: white;
+}
+
+/*--------------------BLIV FRIVILLIG-------------------*/
+.frivillig_indhold {
+  background-color: #454c81;
+  box-shadow: 5px 5px 20px 1px grey;
+  color: white;
+  line-height: 1.5rem;
+  padding: 3rem;
+}
+
+.frivillig_billede {
+  max-width: 100%;
+  padding-top: 3rem;
+}
+
+/*--------------------AKTIVITETER-------------------*/
+.aktiviteter_indhold {
+  background-color: #b3bf58;
+  box-shadow: 5px 5px 20px 1px grey;
+  color: white;
+  line-height: 1.5rem;
+
+  padding: 3rem;
+  margin-block: 3rem;
+}
+
+.frivillig_billede {
+  max-width: 100%;
+  padding-top: 3rem;
+}
+
+
+/*--------------------BLIV VIGET I UKIRKE-------------------*/
+.vielse_indhold {
+  background-color: #EBAF3D;
+  box-shadow: 5px 5px 20px 1px grey;
+  color: white;
+  line-height: 1.5rem;
+
+  padding: 3rem;
+  margin-block: 3rem;
+}
+
+.frivillig_billede {
+  max-width: 100%;
+  padding-top: 3rem;
+}
+
+
+/*--------------------DESKTOPVERSION-------------------*/
+
+@media (max-width: 1200px) {
+  
+.content1-grid {
+  display: grid;
+  grid-template-columns: ;
+}
+
+}
