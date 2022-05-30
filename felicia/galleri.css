@@ -10,6 +10,9 @@ h1 {
 }
 
 /* mobilefirst */
+.toggle_galleri {
+  color: orange;
+}
 .grid_1-1 {
   display: grid;
   margin-bottom: 30px;

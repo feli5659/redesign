@@ -46,7 +46,7 @@ footer {
   padding: 2rem;
   margin-top: 10px;
   display: flex;
-  flex-flow: wrap; /* når der ikke er plads mere - rykker den ned under */
+  flex-flow: wrap;
   justify-content: right;
   position: sticky;
 }
