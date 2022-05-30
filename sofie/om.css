@@ -205,10 +205,9 @@
   padding-top: 3rem;
 }
 
-
 /*--------------------BLIV VIGET I UKIRKE-------------------*/
 .vielse_indhold {
-  background-color: #EBAF3D;
+  background-color: #ebaf3d;
   box-shadow: 5px 5px 20px 1px grey;
   color: white;
   line-height: 1.5rem;
@@ -222,14 +221,11 @@
   padding-top: 3rem;
 }
 
-
 /*--------------------DESKTOPVERSION-------------------*/
 
 @media (max-width: 1200px) {
-  
-.content1-grid {
-  display: grid;
-  grid-template-columns: ;
-}
-
+  .content1-grid {
+    display: grid;
+    grid-template-columns: ;
+  }
 }
