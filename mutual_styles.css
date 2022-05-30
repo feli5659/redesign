@@ -15,8 +15,9 @@ html {
   --space-xl: 8rem;
 }
 body {
-  background-image: url(/images/baggrund_galleri2.png); 
+  background-image: url(/images/baggrund_galleri2.png);
 }
+/* font-strørrelser */
 h1 {
   font-size: 5rem;
   font-family: dincondensed;
@@ -27,7 +28,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: dincondensed;
 }
 p {
