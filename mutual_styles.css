@@ -7,7 +7,11 @@
 }
 html {
   /* farve variabler */
-  --titel-color: #32396f;
+  --blue: #32396f;
+  --green: #b3bf58;
+  --orange: #e2a83b;
+  --lilla: #9c6b98;
+
   /* gap variabler */
   --space-s: 1rem;
   --space-m: 2rem;
@@ -63,18 +67,17 @@ footer {
 /* header */
 .banner {
   padding: 2rem;
-  margin-top: 10px;
   display: flex;
-  flex-flow: wrap;
   justify-content: space-between;
-  position: sticky;
+  align-items: baseline;
+  flex-flow: wrap;
 }
 .main-menu {
   font-family: dincondensed;
 }
 
 header .logo {
-  width: 30%;
+  max-width: 30%;
 }
 
 .main-menu ul {
@@ -120,5 +123,11 @@ header .logo {
     display: flex;
     flex: 1 1 100%;
     flex-flow: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .logo {
+    max-width: 30%;
   }
 }

@@ -11,7 +11,7 @@ h1 {
 
 /* mobilefirst */
 .toggle_galleri {
-  color: orange;
+  color: var(--orange);
 }
 .grid_1-1 {
   display: grid;
@@ -36,7 +36,7 @@ h1 {
   font-family: dincondensed;
   display: grid;
   grid-column: 1;
-  /* color: #32396f; */
+  color: var(--blue);
 }
 
 .instafeed {
@@ -44,7 +44,7 @@ h1 {
   margin-left: 20px;
   margin-right: 20px;
   color: white;
-  background-color: #32396f;
+  background-color: var(--blue);
   box-shadow: 5px 3px 20px 1px grey;
   filter: drop-shadow(10px 10px 4px #2b2b2e);
   padding: 30px;
