@@ -135,9 +135,3 @@ header .logo {
     flex-flow: column;
   }
 }
-
-@media (min-width: 1200px) {
-  header .logo {
-    max-width: 30%;
-  }
-}
