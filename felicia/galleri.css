@@ -5,10 +5,6 @@ html {
   background-repeat: repeat;
 }
 
-h1 {
-  color: var(--titel-color);
-}
-
 /* mobilefirst */
 .toggle_galleri {
   color: var(--orange);
