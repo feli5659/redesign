@@ -4,6 +4,18 @@
   cursor: revert;
   box-sizing: border-box;
 }
+html {
+  /* farve variabler */
+  --titel-color: #32396f;
+  /* gap variabler */
+  --space-s: 1rem;
+  --space-m: 2rem;
+  --space-l: 4rem;
+  --space-xl: 8rem;
+}
+body {
+  background-image: url(/images/baggrund_galleri2.png);
+}
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -12,6 +24,10 @@ main {
 img {
   width: 100%;
   height: auto;
+}
+
+footer {
+  background-color: #e0d9d1;
 }
 
 /* fonte */
