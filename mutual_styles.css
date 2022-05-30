@@ -2,6 +2,7 @@
   all: unset;
   display: revert;
   cursor: revert;
+  /*overstående nustiller alle HTML regler for H1, h2 mm.*/
   box-sizing: border-box;
 }
 html {
