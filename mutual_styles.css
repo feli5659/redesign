@@ -23,9 +23,7 @@ html {
   --space-l: 4rem;
   --space-xl: 8rem;
 }
-body {
-  background-image: url(/images/baggrund_galleri2.png);
-}
+
 /* font-strørrelser */
 h1 {
   font-size: 5rem;

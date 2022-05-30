@@ -1,6 +1,6 @@
 html {
-  background-image: url(/images/baggrund_galleri2.png);
-  max-width: none;
+  background-image: url(/images/galleri_baggrund.svg);
+  max-width: 100%;
   background-size: cover;
   background-repeat: repeat;
 }
