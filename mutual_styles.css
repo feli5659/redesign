@@ -2,6 +2,7 @@
   all: unset;
   display: revert;
   cursor: revert;
+  /*overstående nustiller alle HTML regler for H1, h2 mm.*/
   box-sizing: border-box;
 }
 html {
@@ -15,6 +16,23 @@ html {
 }
 body {
   background-image: url(/images/baggrund_galleri2.png); 
+}
+h1 {
+  font-size: 5rem;
+  font-family: dincondensed;
+}
+h2 {
+  font-size: 3rem;
+  font-family: dincondensed;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: dincondensed;
+}
+p {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 main {
   max-width: 1200px;
