@@ -4,13 +4,22 @@
   cursor: revert;
   box-sizing: border-box;
 }
-main {
-  max-width: 1200px;
-  margin: 0 auto;
+html {
+  --titel-color: #32396f;
+  --footer-color: #e0d9d1;
+  --space-s: 1rem;
+  --space-m: 2rem;
+  --space-l: 4rem;
+  --space-xl: 8rem;
 }
 body {
   background-image: url(/images/baggrund_galleri2.png);
 }
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
   height: auto;
