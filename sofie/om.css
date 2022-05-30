@@ -12,29 +12,42 @@
 
 .container2-1 {
   display: grid;
-  grid-template-columns: 8rem 1fr 8rem;
-  grid-template-rows: 4rem 4rem 1fr 2rem;
+  grid-template-columns: 4rem 1fr 4rem;
+  grid-template-rows: 3rem 3rem 1fr;
 }
-.manifest_indhold1 {
+
+.container1 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  grid-column: 1/4;
-  grid-row: 2/4;
-  padding: 3rem;
-  padding-top: 7.5rem;
-  margin: 1rem;
+  grid-column: 1/6;
+  grid-row: 2/6;
+  margin: 0.5rem;
+}
 
-  line-height: 1.3rem;
+.manifest_indhold1 {
+  grid-column: 2;
+  grid-row: 3/4;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.manifest_titel {
+  grid-column: 1;
+  grid-row: 3;
+  place-self: start;
+  margin-top: 7rem;
+  writing-mode: sideways-lr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .box1 {
   background-color: #454c81;
   box-shadow: 5px 5px 20px 1px grey;
   grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 3rem;
-  padding-block: 4rem;
-  padding-top: 3rem;
+  grid-row: 1 / span 2;
+  padding-top: 4rem;
+  margin-bottom: -4rem;
 
   text-align: center;
   z-index: 1;
@@ -45,29 +58,42 @@
 
 .container2-2 {
   display: grid;
-  grid-template-columns: 8rem 1fr 8rem;
-  grid-template-rows: 4rem 4rem 1fr 2rem;
+  grid-template-columns: 4rem 1fr 4rem;
+  grid-template-rows: 3rem 3rem 1fr;
 }
-.manifest_indhold2 {
+
+.container2 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  grid-column: 1/4;
-  grid-row: 2/4;
-  padding: 3rem;
-  padding-top: 8rem;
-  margin: 1rem;
+  grid-column: 1/6;
+  grid-row: 2/6;
+  margin: 0.5rem;
+}
 
-  line-height: 1.3rem;
+.manifest_indhold2 {
+  grid-column: 2;
+  grid-row: 3/4;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.manifest_titel2 {
+  grid-column: 1;
+  grid-row: 3;
+  place-self: start;
+  margin-top: 7rem;
+  writing-mode: sideways-lr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .box2 {
   background-color: #a27b54;
   box-shadow: 5px 5px 20px 1px grey;
   grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 3rem;
-  padding-block: 5rem;
-  padding-top: 3rem;
+  grid-row: 1 / span 2;
+  padding-top: 4rem;
+  margin-bottom: -4rem;
 
   text-align: center;
   z-index: 1;
@@ -78,115 +104,172 @@
 
 .container2-3 {
   display: grid;
-  grid-template-columns: 8rem 1fr 8rem;
-  grid-template-rows: 4rem 4rem 1fr 2rem;
+  grid-template-columns: 4rem 1fr 4rem;
+  grid-template-rows: 3rem 3rem 1fr;
 }
-.manifest_indhold3 {
+
+.container3 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  grid-column: 1/4;
-  grid-row: 2/4;
-  padding: 3rem;
-  padding-top: 8rem;
-  margin: 1rem;
+  grid-column: 1/6;
+  grid-row: 2/6;
+  margin: 0.5rem;
+}
 
-  line-height: 1.3rem;
+.manifest_indhold3 {
+  grid-column: 2;
+  grid-row: 3/4;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.manifest_titel3 {
+  grid-column: 1;
+  grid-row: 3;
+  place-self: start;
+  margin-top: 7rem;
+  writing-mode: sideways-lr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .box3 {
   background-color: #b3bf58;
   box-shadow: 5px 5px 20px 1px grey;
   grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 3rem;
-  padding-block: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  grid-row: 1 / span 2;
+  padding-top: 4rem;
+  margin-bottom: -4rem;
 
   text-align: center;
   z-index: 1;
   color: white;
 }
-
 /*------------*/
 
 .container2-4 {
   display: grid;
-  grid-template-columns: 8rem 1fr 8rem;
-  grid-template-rows: 4rem 4rem 1fr 2rem;
+  grid-template-columns: 4rem 1fr 4rem;
+  grid-template-rows: 3rem 3rem 1fr;
 }
-.manifest_indhold4 {
+
+.container4 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  grid-column: 1/4;
-  grid-row: 2/4;
-  padding: 3rem;
-  padding-top: 8rem;
-  margin: 1rem;
+  grid-column: 1/6;
+  grid-row: 2/6;
+  margin: 0.5rem;
+}
 
-  line-height: 1.3rem;
+.manifest_indhold4 {
+  grid-column: 2;
+  grid-row: 3/4;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.manifest_titel4 {
+  grid-column: 1;
+  grid-row: 3;
+  place-self: start;
+  margin-top: 7rem;
+  writing-mode: sideways-lr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .box4 {
   background-color: #e2a83b;
   box-shadow: 5px 5px 20px 1px grey;
   grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  grid-row: 1 / span 2;
+  padding-top: 4rem;
+  margin-bottom: -4rem;
 
   text-align: center;
   z-index: 1;
   color: white;
 }
-
 /*------------*/
 
 .container2-5 {
   display: grid;
-  grid-template-columns: 8rem 1fr 8rem;
-  grid-template-rows: 4rem 4rem 1fr 2rem;
+  grid-template-columns: 4rem 1fr 4rem;
+  grid-template-rows: 3rem 3rem 1fr;
 }
-.manifest_indhold5 {
+
+.container5 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  grid-column: 1/4;
-  grid-row: 2/4;
-  padding: 3rem;
-  padding-top: 9rem;
-  margin: 1rem;
+  grid-column: 1/6;
+  grid-row: 2/6;
+  margin: 0.5rem;
+}
 
-  line-height: 1.3rem;
+.manifest_indhold5 {
+  grid-column: 2;
+  grid-row: 3/4;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.manifest_titel5 {
+  grid-column: 1;
+  grid-row: 3;
+  place-self: start;
+  margin-top: 7rem;
+  writing-mode: sideways-lr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .box5 {
-  background-color: #454c81;
+  background-color: #ce4e54;
   box-shadow: 5px 5px 20px 1px grey;
   grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: 3rem;
-  padding-block: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  grid-row: 1 / span 2;
+  padding-top: 4rem;
+  margin-bottom: -4rem;
+
   text-align: center;
-  line-height: 1.5rem;
   z-index: 1;
   color: white;
 }
+/*------------*/
 
 /*--------------------BLIV FRIVILLIG-------------------*/
+
+.content3-grid {
+  display: grid;
+  grid-template-columns: 3rem 1fr 3rem;
+  grid-template-rows: 1fr 1fr;
+}
+
 .frivillig_indhold {
   background-color: #454c81;
   box-shadow: 5px 5px 20px 1px grey;
   color: white;
   line-height: 1.5rem;
   padding: 3rem;
-}
 
+  grid-column: 1/4;
+  grid-row: 1;
+}
 .frivillig_billede {
   max-width: 100%;
   padding-top: 3rem;
+grid-column: 2;
+  grid-row: 2;
+
+}
+
+.sammenhold_titel {
+   grid-column: 3;
+  grid-row: 2;
+  place-self: start;
+  margin-top: 7rem;
+  writing-mode: sideways-rl;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /*--------------------AKTIVITETER-------------------*/
@@ -205,10 +288,9 @@
   padding-top: 3rem;
 }
 
-
 /*--------------------BLIV VIGET I UKIRKE-------------------*/
 .vielse_indhold {
-  background-color: #EBAF3D;
+  background-color: #ebaf3d;
   box-shadow: 5px 5px 20px 1px grey;
   color: white;
   line-height: 1.5rem;
@@ -222,14 +304,11 @@
   padding-top: 3rem;
 }
 
-
 /*--------------------DESKTOPVERSION-------------------*/
 
-@media (max-width: 1200px) {
-  
-.content1-grid {
-  display: grid;
-  grid-template-columns: ;
-}
-
+@media (min-width: 1200px) {
+  .content1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
