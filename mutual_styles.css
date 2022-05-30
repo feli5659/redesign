@@ -14,7 +14,7 @@ html {
   --space-xl: 8rem;
 }
 body {
-  background-image: url(/images/baggrund_galleri2.png);
+  background-image: url(/images/baggrund_galleri2.png); 
 }
 main {
   max-width: 1200px;
