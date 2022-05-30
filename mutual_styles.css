@@ -11,6 +11,11 @@ html {
   --green: #b3bf58;
   --orange: #e2a83b;
   --lilla: #9c6b98;
+  --yellow: #f4dc3e;
+  --white: #ffffff;
+  --beige: #e0d9d1;
+  --pink: #df4250;
+  --brown: #a97a4d;
 
   /* gap variabler */
   --space-s: 1rem;
