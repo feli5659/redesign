@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 html {
+  /* farve variabler */
   --titel-color: #32396f;
-  --footer-color: #e0d9d1;
+  /* gap variabler */
   --space-s: 1rem;
   --space-m: 2rem;
   --space-l: 4rem;
@@ -23,6 +24,10 @@ main {
 img {
   width: 100%;
   height: auto;
+}
+
+footer {
+  background-color: #e0d9d1;
 }
 
 /* fonte */
