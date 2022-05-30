@@ -15,7 +15,7 @@ html {
   --space-xl: 8rem;
 }
 body {
-  background-image: url(/images/baggrund_galleri2.png);
+  background-image: url(/images/baggrund_galleri2.png); 
 }
 h1 {
   font-size: 5rem;
