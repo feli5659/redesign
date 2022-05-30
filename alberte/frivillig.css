@@ -73,7 +73,48 @@ figure {
 .lilla {
   background-color: var(--lilla);
   color: white;
+  padding: 2rem 2rem;
+  margin-bottom: var(--space-l);
 }
+
+.tekst_lilla_1 {
+  margin-bottom: 1rem;
+}
+.beige {
+  background-color: var(--beige);
+  padding: 2rem 2rem;
+  margin-bottom: var(--space-m);
+  display: grid;
+  grid-template-columns: 1fr 4rem;
+}
+
+.beige p {
+  margin-bottom: 1rem;
+}
+
+.h2_beige {
+  background-color: white;
+  padding: 20px;
+  /* width: 140%; */
+  writing-mode: sideways-rl;
+  margin-right: -2rem;
+}
+
+.pink {
+  background-color: var(--pink);
+  color: white;
+  padding: 2rem 2rem;
+  margin-bottom: var(--space-l);
+}
+.tekst_pink_1 {
+  margin-bottom: 1rem;
+}
+
+.facebook {
+  background-color: blue;
+  color: white;
+}
+
 /* Desktop version */
 
 @media (min-width: 800px) {
