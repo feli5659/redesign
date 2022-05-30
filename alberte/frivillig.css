@@ -10,8 +10,17 @@ html {
   color: orange;
 }
 
-.tern_header {
+li {
+  list-style-type: circle;
+}
+
+.tern_header1 {
   margin-bottom: var(--space-s);
+}
+.tern_header2 {
+  margin-top: -2rem;
+  width: 70%;
+  margin-bottom: var(--space-m);
 }
 
 .tekst_1 {
@@ -48,9 +57,30 @@ figure {
   margin-bottom: var(--space-s);
 }
 
+.green {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  background-color: var(--green);
+  padding: 2rem 2rem 4rem;
+}
+
+.h2_green {
+  grid-column: span 2;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.lilla {
+  background-color: var(--lilla);
+  color: white;
+}
 /* Desktop version */
 
 @media (min-width: 800px) {
+  img {
+    width: 110%;
+  }
+
   .tern_header {
     width: 50%;
   }
@@ -71,5 +101,8 @@ figure {
   }
   .tekst_2 {
     width: 70%;
+  }
+  .h2_green {
+    text-align: center;
   }
 }
