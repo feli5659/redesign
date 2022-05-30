@@ -76,6 +76,12 @@ h1 {
   aspect-ratio: 2/3;
 }
 
+.img1,
+.img2,
+.img3 {
+  border: solid 15px white;
+}
+
 .youtube {
   display: grid;
   margin-left: 20px;
