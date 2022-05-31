@@ -343,11 +343,11 @@ h1 {
 
 /*---------HVAD ER UKIRKE?--------------*/
 @media (min-width: 800px) {
-main {
-  background-image: url(/images/desktop_baggrund_omos.svg);
-  background-size: cover;
-  max-width: 100%;
-}
+  main {
+    background-image: url(/images/om_os_background.svg);
+    background-size: cover;
+    max-width: 100%;
+  }
   .tern_header {
     max-width: 56%;
   }
@@ -409,6 +409,21 @@ main {
   .box4,
   .box5 {
     grid-column: 2 / span 2;
+  }
+
+  .box1 {
+    font-size: 1.2rem;
+  }
+
+  .box2 {
+    text-align: left;
+    padding-inline: 1rem;
+  }
+
+  .box5 {
+    text-align: left;
+    padding-inline: 1rem;
+    font-size: 1.4rem;
   }
 
   .manifest_indhold1,
