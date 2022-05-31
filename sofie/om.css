@@ -1,6 +1,18 @@
-/* .intro_video {
-} */
+/*---------------HEADER-------------------*/
 
+.toggle_omos {
+  color: var(--orange);
+}
+
+/*---------------HVAD ER UKIRKE?-------------------*/
+
+h1 {
+  font-size: 2rem;
+}
+
+.tern_header {
+  max-width: 100%;
+}
 .intro_video {
   max-width: 100%;
 }
@@ -233,7 +245,6 @@
   z-index: 1;
   color: white;
 }
-/*------------*/
 
 /*--------------------BLIV FRIVILLIG-------------------*/
 
