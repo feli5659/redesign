@@ -10,10 +10,6 @@ html {
   color: orange;
 }
 
-li {
-  list-style-type: circle;
-}
-
 .tern_header1 {
   margin-bottom: var(--space-s);
 }
