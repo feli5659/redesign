@@ -12,9 +12,12 @@ html {
 
 .tern_header1 {
   margin-bottom: var(--space-s);
+  width: 50%;
 }
 .tern_header2 {
-  margin-top: -2rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-top: -1rem;
   width: 70%;
   margin-bottom: var(--space-m);
 }
@@ -37,7 +40,7 @@ html {
   box-shadow: 5px 5px 20px 1px grey;
   /* margin-inline: 0.5rem; */
   padding: 3rem 2rem 2rem;
-  margin-bottom: var(--space-m);
+  margin-bottom: var(--space-l);
   z-index: -1;
   margin-top: -2rem;
 }
@@ -78,10 +81,11 @@ figure {
 }
 .beige {
   background-color: var(--beige);
-  padding: 2rem 2rem;
+  padding: 2rem 2rem 0rem 2rem;
   margin-bottom: var(--space-m);
   display: grid;
   grid-template-columns: 1fr 4rem;
+  margin-bottom: var(--space-l);
 }
 
 .beige p {
@@ -90,16 +94,17 @@ figure {
 
 .h2_beige {
   background-color: white;
-  padding: 20px;
-  /* width: 140%; */
+  padding: 60px 20px 60px 20px;
   writing-mode: sideways-rl;
   margin-right: -2rem;
+  margin-top: -4rem;
+  text-align: center;
 }
 
 .pink {
   background-color: var(--pink);
   color: white;
-  padding: 2rem 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   margin-bottom: var(--space-l);
 }
 .tekst_pink_1 {
@@ -109,6 +114,29 @@ figure {
 .facebook {
   background-color: blue;
   color: white;
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  max-width: fit-content;
+  margin-top: -6rem;
+  margin-left: 10.5rem;
+  margin-bottom: 4rem;
+}
+.facebook p:hover {
+  border-bottom: 3px solid white;
+}
+.her {
+  padding: 1rem;
+  border: white solid 2px;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.her p:hover {
+  border-bottom: 3px solid white;
 }
 
 /* Desktop version */
@@ -118,8 +146,11 @@ figure {
     width: 110%;
   }
 
-  .tern_header {
-    width: 50%;
+  .tern_header1 {
+    width: 35%;
+  }
+  .tern_header2 {
+    width: 35%;
   }
   .grid1 {
     display: grid;

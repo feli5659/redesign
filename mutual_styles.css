@@ -57,13 +57,17 @@ footer {
   background-color: #e0d9d1;
   padding: 2rem 2rem 1rem 2rem;
 }
-
+.grid_footer {
+  display: flex;
+  flex-flow: wrap;
+}
 .adresse {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .tider {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
+
 .ukirke_footer {
   display: flex;
   justify-content: center;
