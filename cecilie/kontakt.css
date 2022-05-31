@@ -1,7 +1,16 @@
 html {
-  background-image: url(/cecilie/baggrund2kontakt.svg);
-  max-width: 100%;
+  background-image: url(/cecilie/baggrund_udenkasse.svg);
   background-size: cover;
+}
+
+#box {
+  background: #9c6b98;
+  background-clip: border-box;
+  margin-left: 8rem;
+  margin-right: -25px;
+  margin-top: -28rem;
+  margin-bottom: 10rem;
+  box-shadow: 5px 3px 20px 1px grey;
 }
 
 .kontakt_titel {
@@ -57,4 +66,5 @@ html {
   margin-left: 30rem;
   color: white;
   font-family: dincondensed;
+  padding: 100px;
 }
