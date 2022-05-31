@@ -1,0 +1,32 @@
+body {
+  background-image: url(images/forside_baggrund.png);
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.forside_grid {
+  margin: 20px;
+  gap: var(--space-m);
+}
+
+.forside_copy {
+}
+
+@media (min-width: 800px) {
+  .forside_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .forside_billede {
+    width: 708px;
+    height: 447px;
+  }
+
+  .forside_copy {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
