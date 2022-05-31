@@ -18,14 +18,43 @@ html {
 }
 
 .portraet1 {
-  width: 15rem;
+  width: 13rem;
   margin: 10rem;
-  margin-top: -20rem;
+  margin-top: -21rem;
   margin-left: 15rem;
 }
 
 .tekstbox_kontakt {
-   margin-top: -22rem;
-  margin-left: 34rem;
+  margin-top: -21rem;
+  margin-left: 30rem;
   color: white;
+  font-family: dincondensed;
+}
+
+.portraet2 {
+  width: 13rem;
+  margin: 10rem;
+  margin-top: -2rem;
+  margin-left: 15rem;
+}
+
+.tekstbox_kontakt2 {
+  margin-top: -21rem;
+  margin-left: 30rem;
+  color: white;
+  font-family: dincondensed;
+}
+
+.portraet3 {
+  width: 13rem;
+  margin: 10rem;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+
+.tekstbox_kontakt3 {
+  margin-top: -21rem;
+  margin-left: 30rem;
+  color: white;
+  font-family: dincondensed;
 }
