@@ -1,14 +1,40 @@
-/* .intro_video {
-} */
+/*---------------BACKGROUND-------------------*/
+main {
+  background-image: url(/images/om_os_background.svg);
+  max-width: 100%;
+  background-size: cover;
+}
+/*---------------HEADER-------------------*/
+
+.toggle_omos {
+  color: var(--orange);
+}
+
+/*---------------HVAD ER UKIRKE?-------------------*/
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.tern_header {
+  max-width: 78%;
+}
 
 .intro_video {
-  max-width: 100%;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block: var(--space-m);
 }
+
 .introduktion_indhold {
   background-color: white;
   box-shadow: 5px 5px 20px 1px grey;
   margin-inline: 0.5rem;
-  padding: 2rem;
+  padding: 3rem;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 /*---------------MANIFEST-------------------*/
@@ -16,15 +42,16 @@
 .container2-1 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container1 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold1 {
@@ -52,7 +79,6 @@
   margin-bottom: -4rem;
 
   text-align: center;
-  z-index: 1;
   color: white;
 }
 
@@ -61,15 +87,16 @@
 .container2-2 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container2 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold2 {
@@ -97,7 +124,7 @@
   margin-bottom: -4rem;
 
   text-align: center;
-  z-index: 1;
+
   color: white;
 }
 
@@ -106,15 +133,16 @@
 .container2-3 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container3 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold3 {
@@ -142,7 +170,6 @@
   margin-bottom: -4rem;
 
   text-align: center;
-  z-index: 1;
   color: white;
 }
 /*------------*/
@@ -150,15 +177,16 @@
 .container2-4 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container4 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold4 {
@@ -186,7 +214,6 @@
   margin-bottom: -4rem;
 
   text-align: center;
-  z-index: 1;
   color: white;
 }
 /*------------*/
@@ -194,15 +221,16 @@
 .container2-5 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container5 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold5 {
@@ -230,10 +258,9 @@
   margin-bottom: -4rem;
 
   text-align: center;
-  z-index: 1;
+
   color: white;
 }
-/*------------*/
 
 /*--------------------BLIV FRIVILLIG-------------------*/
 
@@ -314,9 +341,101 @@
 
 /*--------------------DESKTOPVERSION-------------------*/
 
-@media (min-width: 1200px) {
+/*---------HVAD ER UKIRKE?--------------*/
+@media (min-width: 800px) {
   .content1-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .intro_video {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .introduktion_indhold {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  /*---------MANIFEST--------------*/
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    display: none;
+  }
+
+  .manifest_titel2,
+  .manifest_titel3,
+  .manifest_titel4,
+  .manifest_titel5 {
+    display: none;
+  }
+
+  .content2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3rem 3rem 1fr 1fr 3rem;
+    background-color: white;
+    grid-row: 2 / span 6;
+    margin-right: 3rem;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    grid-column: 2 / span 2;
+  }
+
+  .manifest_indhold1,
+  .manifest_indhold2,
+  .manifest_indhold3,
+  .manifest_indhold4,
+  .manifest_indhold5 {
+    grid-column: 2 / span 2;
+  }
+
+  /*---------FRIVILLIG--------------*/
+
+  .content3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3rem;
+    grid-row: 2rem 1fr 3rem;
+  }
+
+  .frivillig_indhold {
+    grid-column: 1;
+  }
+
+  .frivillig_billede {
+    grid-column: 2;
+    grid-column: 2;
+  }
+
+
+  /*---------AKTIVITETER OG VIELSER--------------*/
+
+
+.content4-grid, .content5-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+.aktiviteter_indhold {
+  margin-right: var(--space-s);
+}
+
+
+}
+
+
+
+
