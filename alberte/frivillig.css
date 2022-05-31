@@ -74,10 +74,12 @@ figure {
   color: white;
   padding: 2rem 2rem;
   margin-bottom: var(--space-l);
+  display: grid;
 }
 
 .tekst_lilla_1 {
   margin-bottom: 1rem;
+  z-index: 1;
 }
 .beige {
   background-color: var(--beige);
