@@ -1,32 +1,74 @@
 body {
   background-image: url(images/forside_baggrund.png);
 }
-
-h2 {
-  font-size: 1.5rem;
+.forside_billede {
+  width: 416px;
+  height: 262px;
 }
-
-.forside_grid {
-  margin: 20px;
-  gap: var(--space-m);
-}
-
 .forside_copy {
+  font-size: 1.8rem;
+  margin-left: 20px;
+  margin-block: 10px;
+}
+
+.flex_forside {
+  display: flex;
+  background-color: white;
+  box-shadow: 5px 5px 20px 1px grey;
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-s);
+  padding: var(--space-s);
+}
+
+.grid_forside {
+  display: grid;
+}
+.h3_titel {
+  grid-column: 1;
+  padding-bottom: var(--space-s);
+}
+.p_forside {
+  grid-column: 2;
+  grid-column: 1;
+  padding-right: var(--space-s);
+}
+.laes_mere_om {
+  text-align: center;
+  margin-left: var(--space-xl);
+  margin-right: var(--space-xl);
+  padding: 1rem;
+  border: var(--blue) solid 2px;
+  font-weight: bold;
+  color: var(--blue);
+  margin-bottom: var(--space-m);
+}
+video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 11px;
+  border: solid 5px white;
 }
 
 @media (min-width: 800px) {
-  .forside_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .forside_billede {
-    width: 708px;
-    height: 447px;
+    width: 659px;
+    height: 460px;
+  }
+  .forside_copy {
+    font-size: 2.5rem;
+    margin-top: 0;
   }
 
-  .forside_copy {
-    grid-column: 1;
-    grid-row: 2;
+  .flex_forside {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  video {
+    grid-column: 2;
   }
 }
