@@ -1,3 +1,9 @@
+/*---------------BACKGROUND-------------------*/
+main {
+  background-image: url(/images/om_os_background.svg);
+  max-width: 100%;
+  background-size: cover;
+}
 /*---------------HEADER-------------------*/
 
 .toggle_omos {
@@ -7,20 +13,28 @@
 /*---------------HVAD ER UKIRKE?-------------------*/
 
 h1 {
-  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .tern_header {
-  max-width: 100%;
+  max-width: 78%;
 }
+
 .intro_video {
-  max-width: 100%;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block: var(--space-m);
 }
+
 .introduktion_indhold {
   background-color: white;
   box-shadow: 5px 5px 20px 1px grey;
   margin-inline: 0.5rem;
-  padding: 2rem;
+  padding: 3rem;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 /*---------------MANIFEST-------------------*/
@@ -28,15 +42,16 @@ h1 {
 .container2-1 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container1 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold1 {
@@ -73,15 +88,16 @@ h1 {
 .container2-2 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container2 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold2 {
@@ -118,15 +134,16 @@ h1 {
 .container2-3 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container3 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold3 {
@@ -162,15 +179,16 @@ h1 {
 .container2-4 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container4 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold4 {
@@ -206,15 +224,16 @@ h1 {
 .container2-5 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem;
-  grid-template-rows: 3rem 3rem 1fr;
+  grid-template-rows: 3rem 3rem 1fr 4rem;
 }
 
 .container5 {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
   grid-column: 1/6;
-  grid-row: 2/6;
-  margin: 0.5rem;
+  grid-row: 2/7;
+  margin: var(--space-s);
+  margin-bottom: var(--space-l);
 }
 
 .manifest_indhold5 {
@@ -325,9 +344,24 @@ h1 {
 
 /*--------------------DESKTOPVERSION-------------------*/
 
-@media (min-width: 1200px) {
+/*---------HVAD ER UKIRKE?--------------*/
+@media (min-width: 800px) {
   .content1-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.intro_video {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.introduktion_indhold {
+  grid-column: 1;
+  grid-row: 1;
 }
