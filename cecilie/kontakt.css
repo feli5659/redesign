@@ -1,0 +1,70 @@
+html {
+  background-image: url(/cecilie/baggrund_udenkasse.svg);
+  background-size: cover;
+}
+
+#box {
+  background: #9c6b98;
+  background-clip: border-box;
+  margin-left: 8rem;
+  margin-right: -25px;
+  margin-top: -28rem;
+  margin-bottom: 10rem;
+  box-shadow: 5px 3px 20px 1px grey;
+}
+
+.kontakt_titel {
+  position: relative;
+  top: 26px;
+  writing-mode: sideways-lr;
+  place-content: end;
+  margin: 4;
+  font-size: 5rem;
+  font-family: dincondensed;
+  display: grid;
+  grid-column: 1;
+  color: var(--blue);
+}
+
+.portraet1 {
+  width: 13rem;
+  margin: 10rem;
+  margin-top: -21rem;
+  margin-left: 15rem;
+}
+
+.tekstbox_kontakt {
+  margin-top: -21rem;
+  margin-left: 30rem;
+  color: white;
+  font-family: dincondensed;
+}
+
+.portraet2 {
+  width: 13rem;
+  margin: 10rem;
+  margin-top: -2rem;
+  margin-left: 15rem;
+}
+
+.tekstbox_kontakt2 {
+  margin-top: -21rem;
+  margin-left: 30rem;
+  color: white;
+  font-family: dincondensed;
+}
+
+.portraet3 {
+  width: 13rem;
+  margin: 10rem;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+
+.tekstbox_kontakt3 {
+  margin-top: -21rem;
+  margin-left: 30rem;
+  color: white;
+  font-family: dincondensed;
+  padding: 100px;
+}

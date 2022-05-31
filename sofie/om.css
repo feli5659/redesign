@@ -339,10 +339,31 @@ h1 {
   margin-top: 2rem;
 }
 
+/*----------------------FOOTER----------------------*/
+.her {
+  font-weight: bold;
+}
+.ikoner {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.vesterbro {
+  text-decoration: underline;
+}
+
 /*--------------------DESKTOPVERSION-------------------*/
 
 /*---------HVAD ER UKIRKE?--------------*/
 @media (min-width: 800px) {
+  main {
+    background-image: url(/images/om_os_background.svg);
+    background-size: cover;
+    max-width: 100%;
+  }
+  .tern_header {
+    max-width: 56%;
+  }
   .content1-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -355,6 +376,8 @@ h1 {
     margin-right: auto;
     grid-column: 2;
     grid-row: 1;
+    margin-top: 1rem;
+    height: 83%;
   }
 
   .introduktion_indhold {
@@ -381,18 +404,39 @@ h1 {
   .content2-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 3rem 3rem 1fr 1fr 3rem;
     background-color: white;
+    box-shadow: 5px 3px 20px 1px grey;
     grid-row: 2 / span 6;
-    margin-right: 3rem;
+    margin-inline: var(--space-m);
+    margin-block: var(--space-s);
+    padding: var(--space-l);
   }
 
+  .manifest_titel {
+    font-size: 3rem;
+    margin-left: -1rem;
+  }
   .box1,
   .box2,
   .box3,
   .box4,
   .box5 {
     grid-column: 2 / span 2;
+  }
+
+  .box1 {
+    font-size: 1.2rem;
+  }
+
+  .box2 {
+    text-align: left;
+    padding-inline: 1rem;
+  }
+
+  .box5 {
+    text-align: left;
+    padding-inline: 1rem;
+    font-size: 1.4rem;
   }
 
   .manifest_indhold1,
@@ -407,35 +451,69 @@ h1 {
 
   .content3-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 3rem;
-    grid-row: 2rem 1fr 3rem;
+    grid-template-columns: 1fr 1fr 5rem;
+    grid-template-rows: none;
   }
 
   .frivillig_indhold {
     grid-column: 1;
+    grid-row: 1;
+    padding: var(--space-l);
   }
 
   .frivillig_billede {
     grid-column: 2;
-    grid-column: 2;
+    grid-row: 1;
+    max-width: 90%;
+    padding-block: var(--space-l);
   }
 
-
+  .sammenhold_titel {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 5rem;
+    font-size: 3rem;
+    margin-left: -2rem;
+  }
+  .læs_mere_friv {
+    grid-column: 1;
+    grid-row: 1;
+    place-self: end start;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+  }
   /*---------AKTIVITETER OG VIELSER--------------*/
 
+  .content4-grid,
+  .content5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.content4-grid, .content5-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  .aktiviteter_indhold {
+    margin-right: var(--space-s);
+  }
+
+  /*-----------------FOOTER--------------------*/
+
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+  .adresse {
+    display: grid;
+    grid-column: 2;
+    padding-right: 3rem;
+  }
+
+  .foelg_os {
+    grid-column: 3;
+  }
+
+  .vesterbro {
+    padding-left: 3rem;
+  }
+
+ 
 }
-
-.aktiviteter_indhold {
-  margin-right: var(--space-s);
-}
-
-
-}
-
-
-
-
