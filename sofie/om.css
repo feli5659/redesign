@@ -343,6 +343,14 @@ h1 {
 
 /*---------HVAD ER UKIRKE?--------------*/
 @media (min-width: 800px) {
+main {
+  background-image: url(/images/desktop_baggrund_omos.svg);
+  background-size: cover;
+  max-width: 100%;
+}
+  .tern_header {
+    max-width: 56%;
+  }
   .content1-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -355,6 +363,8 @@ h1 {
     margin-right: auto;
     grid-column: 2;
     grid-row: 1;
+    margin-top: 1rem;
+    height: 83%;
   }
 
   .introduktion_indhold {
@@ -381,12 +391,18 @@ h1 {
   .content2-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 3rem 3rem 1fr 1fr 3rem;
     background-color: white;
+    box-shadow: 5px 3px 20px 1px grey;
     grid-row: 2 / span 6;
-    margin-right: 3rem;
+    margin-inline: var(--space-m);
+    margin-block: var(--space-s);
+    padding: var(--space-l);
   }
 
+  .manifest_titel {
+    font-size: 3rem;
+    margin-left: -1rem;
+  }
   .box1,
   .box2,
   .box3,
@@ -407,35 +423,46 @@ h1 {
 
   .content3-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 3rem;
-    grid-row: 2rem 1fr 3rem;
+    grid-template-columns: 1fr 1fr 5rem;
+    grid-template-rows: none;
   }
 
   .frivillig_indhold {
     grid-column: 1;
+    grid-row: 1;
+    padding: var(--space-l);
   }
 
   .frivillig_billede {
     grid-column: 2;
-    grid-column: 2;
+    grid-row: 1;
+    max-width: 90%;
+    padding-block: var(--space-l);
   }
 
-
+  .sammenhold_titel {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 5rem;
+    font-size: 3rem;
+    margin-left: -2rem;
+  }
+  .læs_mere_friv {
+    grid-column: 1;
+    grid-row: 1;
+    place-self: end start;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+  }
   /*---------AKTIVITETER OG VIELSER--------------*/
 
+  .content4-grid,
+  .content5-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.content4-grid, .content5-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  .aktiviteter_indhold {
+    margin-right: var(--space-s);
+  }
 }
-
-.aktiviteter_indhold {
-  margin-right: var(--space-s);
-}
-
-
-}
-
-
-
-
