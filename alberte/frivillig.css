@@ -61,6 +61,7 @@ figure {
   grid-template-columns: 1fr 1fr; */
   background-color: var(--green);
   padding: 2rem 2rem 4rem;
+  box-shadow: 5px 5px 20px 1px grey;
 }
 
 .h2_green {
@@ -104,10 +105,11 @@ figure {
 }
 
 .pink {
-  background-color: var(--pink);
+  background-color: var(--lyserod);
   color: white;
   padding: 2rem 2rem 4rem 2rem;
   margin-bottom: var(--space-l);
+  box-shadow: 5px 5px 20px 1px grey;
 }
 .tekst_pink_1 {
   margin-bottom: 1rem;
@@ -135,10 +137,13 @@ figure {
   margin-top: 2rem;
   text-align: center;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .her p:hover {
   border-bottom: 3px solid white;
+}
+.vesterbro {
+  text-decoration: underline;
 }
 
 /* Desktop version */
