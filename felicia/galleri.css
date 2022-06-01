@@ -7,7 +7,7 @@ html {
 
 /* mobilefirst */
 .toggle_galleri {
-  color: var(--orange);
+  color: orange;
 }
 .grid_1-1 {
   display: grid;
