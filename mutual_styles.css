@@ -74,6 +74,14 @@ footer {
   justify-content: center;
   margin-top: 2rem;
 }
+.vertikal {
+  writing-mode: sideways-lr;
+  font-size: 3rem;
+  font-family: dincondensed;
+  margin: 0;
+  display: grid;
+  grid-column: 1;
+}
 
 /* fonte */
 @font-face {

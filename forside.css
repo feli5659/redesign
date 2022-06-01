@@ -8,7 +8,7 @@ body {
 .forside_copy {
   font-size: 1.8rem;
   margin-left: 20px;
-  margin-block: 10px;
+  margin-block: var(--space-m);
 }
 
 .flex_forside {
@@ -23,23 +23,58 @@ body {
 /*-------------hvad er ukirke?---------------*/
 .intro_video {
   max-width: 100%;
+  border: solid 20px var(--green);
 }
 
 .introduktion_indhold {
   background-color: var(--blue);
   color: white;
-  padding: 2rem;
+  padding: 1px;
+}
+.introduktion_indhold p,
+.introduktion_indhold h2,
+.manifest_sort,
+.manifest_hvid,
+.events_2 {
+  margin: 20px;
+  display: grid;
 }
 
-.laes_mere {
+.events_2 p {
+  margin-block: 10px;
+}
+.events_2 h1 {
+  font-size: 3.5rem;
+}
+.quote {
+  margin: 20px;
+  display: flex;
+  place-content: center;
+}
+.laes_mere_om {
   background-color: var(--lilla);
   color: white;
+  grid-column: 1;
+  grid-row: 1;
+  place-self: end start;
+  margin-left: 20px;
+  margin-bottom: 4rem;
+  margin-top: 50px;
+  width: 150px;
+  padding: 10px;
+  border: solid 1px white;
+}
+
+.manifest_border,
+.events {
+  border: solid 2px black;
+  margin: 20px;
 }
 
 @media (min-width: 800px) {
   .forside_billede {
-    width: 659px;
-    height: 460px;
+    width: 579px;
+    height: 365px;
   }
   .forside_copy {
     font-size: 2.5rem;
@@ -53,7 +88,11 @@ body {
     margin-top: 20px;
   }
 
-  video {
-    grid-column: 2;
+  .content1-grid {
+    display: flex;
+  }
+
+  .intro_video {
+    order: 1;
   }
 }
