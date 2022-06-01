@@ -201,8 +201,6 @@ figure {
 
 /*----------------------FOOTER----------------------*/
 .her {
-  padding: 1rem;
-  border: white solid 2px;
   font-weight: bold;
   margin-top: 2rem;
   text-align: center;
@@ -258,21 +256,38 @@ figure {
     text-align: center;
   } */
 
-  .grid_footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem;
-  }
-  .adresse {
-    grid-column: 2;
-    padding-right: 3rem;
-  }
+  /*---------------FOOTER mobil--------------*/
 
-  .foelg_os {
-    grid-column: 3;
+  .her {
+    font-weight: bold;
+  }
+  .ikoner {
+    display: flex;
+    margin-bottom: 1rem;
   }
 
   .vesterbro {
-    padding-left: 3rem;
+    text-decoration: underline;
+  }
+
+  /*---------------FOOTER desktop--------------*/
+  @media (min-width: 800px) {
+    .grid_footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 3rem;
+    }
+    .adresse {
+      grid-column: 2;
+      padding-right: 3rem;
+    }
+
+    .foelg_os {
+      grid-column: 3;
+    }
+
+    .vesterbro {
+      padding-left: 3rem;
+    }
   }
 }

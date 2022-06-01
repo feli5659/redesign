@@ -102,7 +102,6 @@ html {
     margin-top: 4rem;
     margin-left: 1rem;
   }
-
   .tekstbox_kontakt {
     width: 80%;
     margin-top: 2rem;
@@ -155,5 +154,39 @@ html {
     margin-left: 1rem;
     color: white;
     font-family: dincondensed;
+  }
+  /*---------------FOOTER mobil--------------*/
+
+  .her {
+    font-weight: bold;
+  }
+  .ikoner {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .vesterbro {
+    text-decoration: underline;
+  }
+
+  /*---------------FOOTER desktop--------------*/
+  @media (min-width: 800px) {
+    .grid_footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 3rem;
+    }
+    .adresse {
+      grid-column: 2;
+      padding-right: 3rem;
+    }
+
+    .foelg_os {
+      grid-column: 3;
+    }
+
+    .vesterbro {
+      padding-left: 3rem;
+    }
   }
 }
