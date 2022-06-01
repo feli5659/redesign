@@ -23,8 +23,7 @@ body {
 /*-------------hvad er ukirke?---------------*/
 .intro_video {
   max-width: 100%;
-  border: solid 8px var(--green);
-  margin-bottom: 20px;
+  border: solid 20px var(--green);
 }
 
 .introduktion_indhold {
@@ -32,14 +31,27 @@ body {
   color: white;
   padding: 1px;
 }
+.introduktion_indhold p,
+.introduktion_indhold h2,
+.manifest_sort,
+.manifest_hvid,
+.events_2 {
+  margin: 20px;
+}
 
+.events_2 p {
+  margin-block: 10px;
+}
+.quote {
+  margin: 20px;
+}
 .laes_mere_om {
   background-color: var(--lilla);
   color: white;
   grid-column: 1;
   grid-row: 1;
   place-self: end start;
-  margin-left: 4rem;
+  margin-left: 20px;
   margin-bottom: 4rem;
   margin-top: 50px;
   width: 150px;
@@ -47,7 +59,8 @@ body {
   border: solid 1px white;
 }
 
-.manifest_border {
+.manifest_border,
+.events {
   border: solid 2px black;
   margin: 20px;
 }
