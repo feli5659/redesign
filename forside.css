@@ -62,15 +62,27 @@ body {
   margin-top: 50px;
   width: 150px;
   padding: 10px;
-  border: solid 1px white;
 }
 
-.manifest_border,
-.events {
-  border: solid 2px black;
+.manifest_border {
+  border: solid 1px black;
   margin: 20px;
 }
 
+.manifest_sort {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.events {
+  background-color: white;
+  box-shadow: 5px 3px 20px 1px grey;
+  margin: 2rem;
+  padding: 1rem;
+}
 @media (min-width: 800px) {
   .forside_billede {
     width: 579px;
@@ -97,5 +109,40 @@ body {
   }
   .grid_2 {
     display: flex;
+  }
+}
+
+/*---------------FOOTER mobil--------------*/
+
+.her {
+  font-weight: bold;
+}
+.ikoner {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.vesterbro {
+  text-decoration: underline;
+}
+
+/*---------------FOOTER desktop--------------*/
+@media (min-width: 800px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+  .adresse {
+    grid-column: 2;
+    padding-right: 3rem;
+  }
+
+  .foelg_os {
+    grid-column: 3;
+  }
+
+  .vesterbro {
+    padding-left: 3rem;
   }
 }
