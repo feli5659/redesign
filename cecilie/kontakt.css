@@ -3,6 +3,7 @@ html {
   background-size: cover;
 }
 
+
 #box {
   background: #9c6b98;
   background-clip: border-box;
@@ -82,7 +83,7 @@ html {
 .tekstbox_adresse {
   color: white;
   font-family: dincondensed;
-  margin-left: 5rem; 
+  margin-left: 5rem;
   margin-top: 4rem;
   margin-bottom: 6px;
 }
@@ -90,7 +91,7 @@ html {
 .tekstbox_open {
   color: white;
   font-family: dincondensed;
-  margin-left: 5rem; 
+  margin-left: 5rem;
   margin-top: 10rem;
   margin-bottom: 6px;
 }
