@@ -1,6 +1,7 @@
 html {
   background-image: url(/cecilie/baggrund_udenkasse.svg);
   background-size: cover;
+  overflow-x: hidden;
 }
 
 #box {
