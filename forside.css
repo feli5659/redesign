@@ -95,4 +95,7 @@ body {
   .intro_video {
     order: 1;
   }
+  .grid_2 {
+    display: flex;
+  }
 }
