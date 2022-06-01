@@ -7,10 +7,10 @@ main {
 }
 
 /*---------------Li tekst-------------------*/
-li {
+.green li {
   font-size: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 1.5rem;
+  line-height: 2.2rem;
 }
 
 /* Mobile first */
@@ -75,10 +75,16 @@ figure {
   box-shadow: 5px 5px 20px 1px grey;
 }
 
+.green_grid {
+  display: flex;
+  flex-flow: wrap;
+  column-gap: 100px;
+}
+
 .h2_green {
   grid-column: span 2;
   color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .grid_lilla {
@@ -175,7 +181,7 @@ figure {
 
 @media (min-width: 800px) {
   img {
-    width: 110%;
+    width: 100%;
   }
 
   .tern_header1 {
@@ -202,7 +208,28 @@ figure {
   .tekst_2 {
     width: 70%;
   }
-  .h2_green {
+  .green_grid {
+    justify-content: center;
+  }
+  /* .h2_green {
     text-align: center;
+  } */
+
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+  .adresse {
+    grid-column: 2;
+    padding-right: 3rem;
+  }
+
+  .foelg_os {
+    grid-column: 3;
+  }
+
+  .vesterbro {
+    padding-left: 3rem;
   }
 }
