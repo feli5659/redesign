@@ -11,7 +11,20 @@ h2 {
   gap: var(--space-m);
 }
 
-.forside_copy {
+/*-------------hvad er ukirke?---------------*/
+.intro_video {
+  max-width: 100%;
+}
+
+.introduktion_indhold {
+  background-color: var(--blue);
+  color: white;
+  padding: 2rem;
+}
+
+.laes_mere {
+  background-color: var(--lilla);
+  color: white;
 }
 
 @media (min-width: 800px) {
