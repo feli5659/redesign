@@ -65,15 +65,6 @@ html {
   gap: 10px;
 }
 
-.vertikal {
-  writing-mode: sideways-lr;
-  font-size: 3rem;
-  font-family: dincondensed;
-  margin: 0;
-  display: grid;
-  grid-column: 1;
-}
-
 .image1,
 .image4,
 .image5 {
