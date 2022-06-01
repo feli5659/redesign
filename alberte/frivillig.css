@@ -44,7 +44,6 @@ main {
   /* margin-inline: 0.5rem; */
   padding: 3rem 2rem 2rem;
   margin-bottom: var(--space-l);
-  z-index: -1;
   margin-top: -2rem;
 }
 
@@ -53,6 +52,8 @@ main {
   text-align: end;
   padding: 20px;
   width: 80%;
+  z-index: 1;
+  display: grid;
 }
 
 figure {
