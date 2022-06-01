@@ -10,9 +10,9 @@ html {
   margin-right: -25px;
   margin-top: -28rem;
   margin-bottom: 10rem;
+  padding-bottom: 10rem;
   box-shadow: 5px 3px 20px 1px grey;
 }
-
 .kontakt_titel {
   position: relative;
   top: 26px;
@@ -29,13 +29,13 @@ html {
 .portraet1 {
   width: 13rem;
   margin: 10rem;
-  margin-top: -21rem;
-  margin-left: 15rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
 }
 
 .tekstbox_kontakt {
   margin-top: -21rem;
-  margin-left: 30rem;
+  margin-left: 20rem;
   color: white;
   font-family: dincondensed;
 }
@@ -43,13 +43,13 @@ html {
 .portraet2 {
   width: 13rem;
   margin: 10rem;
-  margin-top: -2rem;
-  margin-left: 15rem;
+  margin-top: 6rem;
+  margin-left: 5rem;
 }
 
 .tekstbox_kontakt2 {
   margin-top: -21rem;
-  margin-left: 30rem;
+  margin-left: 20rem;
   color: white;
   font-family: dincondensed;
 }
@@ -57,14 +57,40 @@ html {
 .portraet3 {
   width: 13rem;
   margin: 10rem;
-  margin-top: 10rem;
-  margin-left: 15rem;
+  margin-top: 120px;
+  margin-left: 5rem;
 }
 
 .tekstbox_kontakt3 {
   margin-top: -21rem;
-  margin-left: 30rem;
+  margin-left: 20rem;
   color: white;
   font-family: dincondensed;
-  padding: 100px;
+}
+
+.her {
+  font-weight: bold;
+}
+.ikoner {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.vesterbro {
+  text-decoration: underline;
+}
+.tekstbox_adresse {
+  color: white;
+  font-family: dincondensed;
+  margin-left: 5rem; 
+  margin-top: 4rem;
+  margin-bottom: 6px;
+}
+
+.tekstbox_open {
+  color: white;
+  font-family: dincondensed;
+  margin-left: 5rem; 
+  margin-top: 10rem;
+  margin-bottom: 6px;
 }
