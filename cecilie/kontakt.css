@@ -3,7 +3,6 @@ html {
   background-size: cover;
 }
 
-
 #box {
   background: #9c6b98;
   background-clip: border-box;
@@ -94,4 +93,39 @@ html {
   margin-left: 5rem;
   margin-top: 10rem;
   margin-bottom: 6px;
+}
+
+/*---------------FOOTER mobil--------------*/
+
+.her {
+  font-weight: bold;
+}
+.ikoner {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.vesterbro {
+  text-decoration: underline;
+}
+
+/*---------------FOOTER desktop--------------*/
+@media (min-width: 800px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+  .adresse {
+    grid-column: 2;
+    padding-right: 3rem;
+  }
+
+  .foelg_os {
+    grid-column: 3;
+  }
+
+  .vesterbro {
+    padding-left: 3rem;
+  }
 }
