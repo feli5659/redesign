@@ -1,5 +1,5 @@
 /*---------------BACKGROUND-------------------*/
-main {
+html {
   background-image: url(/images/om_os_background.svg);
   max-width: 100%;
   background-size: cover;
@@ -356,8 +356,8 @@ h1 {
 
 /*---------HVAD ER UKIRKE?--------------*/
 @media (min-width: 800px) {
-  main {
-    background-image: url(/images/om_os_background.svg);
+  html {
+    background-image: url(/images/desktop_background_omos.svg);
     background-size: cover;
     max-width: 100%;
   }
@@ -502,7 +502,6 @@ h1 {
     padding: 3rem;
   }
   .adresse {
-    display: grid;
     grid-column: 2;
     padding-right: 3rem;
   }
