@@ -190,6 +190,13 @@ figure img {
   padding: 4rem 2rem 4rem 2rem;
 }
 
+.facebook {
+  background-color: transparent;
+  box-shadow: none;
+}
+.facebook:hover {
+  border: none;
+}
 .fb_tekst {
   background-color: blue;
   color: white;
@@ -200,6 +207,10 @@ figure img {
   /* max-width: fit-content; */
   justify-content: center;
   box-shadow: 5px 5px 20px 1px grey;
+}
+.fb_tekst:hover {
+  border: 3px solid white;
+}
 }
 
 /* Desktop version */
