@@ -22,7 +22,7 @@ h1 {
 
 .intro_video,
 .pink_jesus_video {
-  max-width: 80%;
+  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -344,11 +344,10 @@ h1 {
 
 .pink_jesus {
   display: grid;
-  gap: 20px;
 }
 .pink_jesus img {
-  margin: var(--space-m);
-  aspect-ratio: 16/9;
+  grid
+  aspect-ratio: 20/12;
 }
 
 /*----------------------FOOTER----------------------*/
@@ -515,10 +514,20 @@ h1 {
     margin-right: var(--space-s);
   }
 
+.pink_jesus {
+  display: grid;
+}
   .pink_jesus_video {
-    margin: var(--space-m);
     grid-column: 2;
+    margin-top: 1rem;
   }
+  
+.pink_jesus img {
+  aspect-ratio: 20/12;
+  margin-left: -1rem;
+  
+}
+
 
   /*-----------------FOOTER--------------------*/
 
