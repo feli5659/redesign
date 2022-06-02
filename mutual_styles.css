@@ -242,25 +242,24 @@ header .logo {
     }
   }
 
+  /*-----------------FOOTER--------------------*/
 
-/*-----------------FOOTER--------------------*/
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+  .adresse {
+    display: grid;
+    grid-column: 2;
+    padding-right: 3rem;
+  }
 
-.grid_footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 3rem;
-}
-.adresse {
-  display: grid;
-  grid-column: 2;
-  padding-right: 3rem;
-}
+  .foelg_os {
+    grid-column: 3;
+  }
 
-.foelg_os {
-  grid-column: 3;
-}
-
-.vesterbro {
-  padding-left: 3rem;
-}
+  .vesterbro {
+    padding-left: 3rem;
+  }
 }
