@@ -20,94 +20,238 @@ body {
   padding: var(--space-s);
 }
 
+.laes_mere_om_intro,
+.laes_mere_om_manifest,
+.laes_mere_om_frivillig,
+.laes_mere_om_samarbejde {
+  background-color: var(--lilla);
+  color: white;
+  width: 150px;
+  font-weight: bold;
+  padding: 1rem;
+}
+
 /*-------------hvad er ukirke?---------------*/
+
 .intro_video {
   max-width: 100%;
-  border: solid 20px var(--green);
 }
 
 .introduktion_indhold {
   background-color: var(--blue);
   color: white;
-  padding: 1px;
-}
-.introduktion_indhold p,
-.introduktion_indhold h2,
-.manifest_sort,
-.manifest_hvid,
-.events_2 {
-  margin: 20px;
-  display: grid;
+  padding: 2rem;
 }
 
-.events_2 p {
-  margin-block: 10px;
+.laes_mere_om_intro {
+  padding: 1rem;
+  margin-top: 2rem;
 }
-.events_2 h1 {
-  font-size: 3.5rem;
-}
-.quote {
-  margin: 20px;
-  display: flex;
-  place-content: center;
-}
-.laes_mere_om {
-  background-color: var(--lilla);
-  color: white;
-  grid-column: 1;
-  grid-row: 1;
-  place-self: end start;
-  margin-left: 20px;
-  margin-bottom: 4rem;
-  margin-top: 50px;
-  width: 150px;
-  padding: 10px;
-}
+
+/*-------------------manifest------------*/
 
 .manifest_border {
   border: solid 1px black;
-  margin: 20px;
+  background-color: white;
+  display: grid;
+  margin-top: -3rem;
+  padding-top: 20px;
 }
 
 .manifest_sort {
   background-color: black;
   color: white;
-  padding: 1rem;
-  justify-content: center;
-  margin-left: 0;
+  padding: 0.8rem;
+  max-width: 80%;
+  padding-left: 5rem;
+  position: sticky;
+  margin-top: var(--space-m);
 }
 
+.manifest_hvid {
+  padding: 2rem;
+  display: grid;
+}
+.manifest_hvid p {
+  padding-top: 20px;
+}
+
+.laes_mere_om_manifest {
+  margin-top: -1rem;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+/*-------------------kommende events------------*/
 .events {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  margin: 2rem;
-  padding: 1rem;
+  padding: 2rem;
+  margin-top: 20px;
 }
+
+.events_2 p {
+  margin-bottom: 1rem;
+}
+
+/*-------------------frivillig------------*/
+
+.lodret_frivillig {
+  writing-mode: sideways-lr;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.events_3 {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.events_3 p {
+  grid-column: 2;
+  padding-top: 3rem;
+}
+
+.friv_billede {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 100%;
+  justify-content: flex end;
+}
+
+.laes_mere_om_frivillig {
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+.quote {
+  margin: 2rem;
+  display: flex;
+  place-content: center end;
+  flex-flow: nowrap;
+  font-size: 1.5rem;
+}
+
+/*-------------------aktiviteter------------*/
+
+.events_4 {
+  background-color: var(--green);
+  color: white;
+  padding-block: 4rem;
+  padding-inline: 2rem;
+  display: grid;
+}
+.events_4 h3 {
+  padding-bottom: 1rem;
+}
+.laes_mere_om_samarbejde {
+  z-index: 1;
+  margin-top: -2rem;
+  margin-left: 1rem;
+  margin-bottom: var(--space-l);
+}
+
+/*-------------------DESKTOPVERSION------------*/
+
 @media (min-width: 800px) {
+  .logo {
+    display: none;
+  }
+
+  .content_grid0 {
+    display: grid;
+    margin-top: 1rem;
+  }
+
+  .intro_video {
+    max-width: 90%;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
   .forside_billede {
-    width: 579px;
-    height: 365px;
+    max-width: 90%;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
   }
   .forside_copy {
     font-size: 2.5rem;
     margin-top: 0;
   }
 
-  .flex_forside {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    margin-top: 20px;
-  }
-
   .content1-grid {
-    display: flex;
-    grid-template-rows: auto 1fr 1fr 1fr;
+    display: none;
+  }
+  /*---------------Manifest--------------*/
+
+  .manifest_sort {
+    width: 30%;
+    margin-left: 20rem;
+  }
+  .manifest_border {
+    margin-inline: 15rem;
+    padding-top: 20px;
+  }
+  .laes_mere_om_manifest {
+    margin-left: 20rem;
   }
 
-  .intro_video {
-    order: 1;
+  /*---------------Kommende events--------------*/
+
+  .events_2 {
+    padding: 3rem;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-  .grid_2 {
+
+  .events h2 {
+    padding: 2rem;
+  }
+  .events_2 p {
+    grid-column: 1;
+    padding-inline: 2rem;
+  }
+  .event_billede {
+    grid-column: 2;
+    max-width: 100%;
+  }
+  /*---------------FRIVILLIG--------------*/
+  .events_3 {
+    display: grid;
+    grid-template-columns: 7rem 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-right: 3rem;
+  }
+
+  .events_3 p {
+    margin-inline: 3rem;
+  }
+  .lodret_frivillig {
+    grid-row: 1;
+    margin-left: 2rem;
+  }
+  .friv_billede {
+    max-width: 100%;
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .laes_mere_om_frivillig {
+    padding-left: 1.5rem;
+    margin-left: 10rem;
+  }
+
+  .quote {
+    margin: 2rem;
     display: flex;
+    place-content: center;
+    flex-flow: nowrap;
+    font-size: 3rem;
+  }
+
+  /*---------------AKTIVITETER--------------*/
+  .events_4 {
+    padding-inline: 6rem;
   }
 }
