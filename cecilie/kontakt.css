@@ -99,6 +99,10 @@ html {
   margin-bottom: 6px;
 }
 
+.kontakt_tekst {
+  margin-top: 1rem;
+}
+
 @media (max-width: 800px) {
   .portraet1 {
     width: 80%;
