@@ -168,7 +168,7 @@ header > div {
   background-color: blue;
   color: white;
   cursor: pointer;
-  padding: 1rem;
+  padding-top: 1rem;
   font-weight: bold;
   text-align: center;
   /* max-width: fit-content; */
