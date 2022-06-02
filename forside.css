@@ -229,8 +229,9 @@ body {
     max-width: 100%;
   }
   .facebook {
-    width: 400px;
-    margin-left: 4rem;
+    width: 15rem;
+    grid-row: 3;
+    grid-column: 1;
   }
   /*---------------FRIVILLIG--------------*/
   .events_3 {
