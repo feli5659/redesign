@@ -96,6 +96,27 @@ html {
   margin-bottom: 6px;
 }
 
+
+  /*-----------------FOOTER--------------------*/
+
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+  }
+  .adresse {
+    grid-column: 2;
+    padding-right: 3rem;
+  }
+
+  .foelg_os {
+    grid-column: 3;
+  }
+
+  .vesterbro {
+    padding-left: 3rem;
+  }
+
 @media (max-width: 800px) {
   .portraet1 {
     width: 80%;
@@ -156,38 +177,23 @@ html {
     color: white;
     font-family: dincondensed;
   }
-  /*---------------FOOTER mobil--------------*/
 
-  .her {
-    font-weight: bold;
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
   }
-  .ikoner {
-    display: flex;
-    margin-bottom: 1rem;
+  .adresse {
+    grid-column: 2;
+    padding-right: 3rem;
+  }
+
+  .foelg_os {
+    grid-column: 3;
   }
 
   .vesterbro {
-    text-decoration: underline;
-  }
-
-  /*---------------FOOTER desktop--------------*/
-  @media (min-width: 800px) {
-    .grid_footer {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding: 3rem;
-    }
-    .adresse {
-      grid-column: 2;
-      padding-right: 3rem;
-    }
-
-    .foelg_os {
-      grid-column: 3;
-    }
-
-    .vesterbro {
-      padding-left: 3rem;
-    }
+    padding-left: 3rem;
   }
 }
+
