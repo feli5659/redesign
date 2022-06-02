@@ -177,26 +177,4 @@ html {
     color: white;
     font-family: dincondensed;
   }
-<<<<<<< HEAD
-=======
-
-  .grid_footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem;
-  }
-  .adresse {
-    grid-column: 2;
-    padding-right: 3rem;
-  }
-
-  .foelg_os {
-    grid-column: 3;
-  }
-
-  .vesterbro {
-    padding-left: 3rem;
-  }
 }
-
->>>>>>> a8a1d3007321ca9f345599676efc94aa69ae131e
