@@ -20,7 +20,8 @@ h1 {
   max-width: 78%;
 }
 
-.intro_video {
+.intro_video,
+.pink_jesus_video {
   max-width: 80%;
   display: block;
   margin-left: auto;
@@ -341,6 +342,15 @@ h1 {
   width: 9rem;
 }
 
+.pink_jesus {
+  display: grid;
+  gap: 20px;
+}
+.pink_jesus img {
+  margin: var(--space-m);
+  aspect-ratio: 16/9;
+}
+
 /*----------------------FOOTER----------------------*/
 .her {
   font-weight: bold;
@@ -503,6 +513,11 @@ h1 {
 
   .aktiviteter_indhold {
     margin-right: var(--space-s);
+  }
+
+  .pink_jesus_video {
+    margin: var(--space-m);
+    grid-column: 2;
   }
 
   /*-----------------FOOTER--------------------*/
