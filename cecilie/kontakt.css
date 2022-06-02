@@ -19,7 +19,7 @@ html {
   top: 26px;
   writing-mode: sideways-lr;
   place-content: end;
-  margin: 4;
+  margin: 4px;
   font-size: 5rem;
   font-family: dincondensed;
   display: grid;
