@@ -320,7 +320,7 @@ h1 {
   border: white solid 2px;
   font-weight: bold;
   margin-top: 2rem;
-  width: 9rem;
+  width: 10rem;
 }
 
 /*--------------------BLIV VIGET I UKIRKE-------------------*/
@@ -339,7 +339,7 @@ h1 {
   border: white solid 2px;
   font-weight: bold;
   margin-top: 2rem;
-  width: 9rem;
+  width: 10rem;
 }
 
 .pink_jesus {
@@ -355,18 +355,6 @@ h1 {
 
 .historien {
   grid-column: 2;
-}
-/*----------------------FOOTER----------------------*/
-.her {
-  font-weight: bold;
-}
-.ikoner {
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-.vesterbro {
-  text-decoration: underline;
 }
 
 /*--------------------DESKTOPVERSION-------------------*/
@@ -499,7 +487,7 @@ h1 {
     font-size: 3rem;
     margin-left: -2rem;
   }
-  .læs_mere_friv {
+  .laes_mere_friv {
     grid-column: 1;
     grid-row: 1;
     place-self: end start;

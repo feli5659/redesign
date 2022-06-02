@@ -153,7 +153,7 @@ body {
 }
 .laes_mere_om_samarbejde {
   z-index: 1;
-  margin-top: -2rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-bottom: var(--space-l);
 }
