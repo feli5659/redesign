@@ -33,6 +33,9 @@ html {
   margin-top: 4rem;
   margin-left: 5rem;
 }
+.toggle_kontrakt {
+  color: orange;
+}
 
 .tekstbox_kontakt {
   margin-top: -21rem;
@@ -95,7 +98,6 @@ html {
   margin-top: 10rem;
   margin-bottom: 6px;
 }
-
 
 @media (max-width: 800px) {
   .portraet1 {
