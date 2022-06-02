@@ -113,7 +113,6 @@ header > div {
   font-family: dincondensed;
 }
 
-
 .main-menu ul {
   list-style: none;
   padding: 0;
@@ -159,6 +158,27 @@ header > div {
     flex: 1 1 100%;
     flex-flow: column;
   }
+}
+
+.facebook {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  place-content: center;
+}
+.fb_tekst {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  /* max-width: fit-content; */
+  justify-content: center;
+  box-shadow: 5px 5px 20px 1px grey;
+}
+.facebook p:hover {
+  border: 3px solid white;
 }
 
 /*----------------------FOOTER----------------------*/
