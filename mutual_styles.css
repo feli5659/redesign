@@ -165,8 +165,6 @@ header > div {
   grid-column: 2;
   grid-row: 1;
   place-content: center;
-}
-.fb_tekst {
   background-color: blue;
   color: white;
   cursor: pointer;
@@ -177,7 +175,8 @@ header > div {
   justify-content: center;
   box-shadow: 5px 5px 20px 1px grey;
 }
-.facebook p:hover {
+
+.facebook:hover {
   border: 3px solid white;
 }
 
