@@ -35,7 +35,6 @@ html {
   font-family: dincondensed;
   display: grid;
   grid-column: 1;
-  color: var(--blue);
 }
 
 .galleri_titel2 {
@@ -45,7 +44,6 @@ html {
   font-family: dincondensed;
   display: grid;
   grid-column: 1;
-  color: var(--blue);
   margin-bottom: 25px;
 }
 

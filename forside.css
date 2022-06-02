@@ -55,15 +55,16 @@ body {
   background-color: white;
   display: grid;
   margin-top: -3rem;
+  padding-top: 20px;
 }
 
 .manifest_sort {
   background-color: black;
   color: white;
   padding: 0.8rem;
-  width: 80%;
+  max-width: 80%;
   padding-left: 5rem;
-  z-index: 3;
+  position: sticky;
   margin-top: var(--space-m);
 }
 
@@ -71,27 +72,34 @@ body {
   padding: 2rem;
   display: grid;
 }
+.manifest_hvid p {
+  padding-top: 20px;
+}
 
 .laes_mere_om_manifest {
   margin-top: -1rem;
   z-index: 1;
+  margin-left: 20px;
 }
 
 /*-------------------kommende events------------*/
 .events {
   background-color: white;
   box-shadow: 5px 3px 20px 1px grey;
-  margin: 1rem;
-}
-.events_2 {
-  margin: 1rem;
   padding: 2rem;
+  margin-top: 20px;
 }
 
 .events_2 p {
   margin-bottom: 1rem;
 }
 
+.event_billede {
+  padding-bottom: rem;
+}
+.facebook {
+  margin-top: 1rem;
+}
 /*-------------------frivillig------------*/
 
 .lodret_frivillig {
@@ -103,11 +111,9 @@ body {
 .events_3 {
   display: grid;
   grid-template-columns: 7rem 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 .events_3 p {
   grid-column: 2;
-  padding-top: 3rem;
 }
 
 .friv_billede {
@@ -119,6 +125,7 @@ body {
 
 .laes_mere_om_frivillig {
   margin-top: 1rem;
+  margin-left: 7rem;
 }
 
 .quote {
@@ -138,11 +145,15 @@ body {
   padding-inline: 2rem;
   display: grid;
 }
-
+.events_4 h2 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
 .laes_mere_om_samarbejde {
   z-index: 1;
   margin-top: -2rem;
   margin-left: 1rem;
+  margin-bottom: var(--space-l);
 }
 
 /*-------------------DESKTOPVERSION------------*/
@@ -176,6 +187,24 @@ body {
   .content1-grid {
     display: none;
   }
+  /*---------------Manifest--------------*/
+
+  .manifest_sort {
+    width: 30%;
+    margin-left: 20rem;
+  }
+  .manifest_hvid p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .manifest_border {
+    margin-inline: 15rem;
+    padding-top: 20px;
+  }
+  .laes_mere_om_manifest {
+    margin-left: rem;
+    margin-bottom: 1rem;
+  }
 
   /*---------------Kommende events--------------*/
 
@@ -192,20 +221,33 @@ body {
   .events_2 p {
     grid-column: 1;
     padding-inline: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
   }
   .event_billede {
     grid-column: 2;
     max-width: 100%;
+  }
+  .facebook {
+    width: 400px;
+    margin-left: 4rem;
   }
   /*---------------FRIVILLIG--------------*/
   .events_3 {
     display: grid;
     grid-template-columns: 7rem 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-right: 3rem;
   }
 
+  .events_3 p {
+    margin-inline: 3rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
   .lodret_frivillig {
     grid-row: 1;
+    margin-left: 2rem;
   }
   .friv_billede {
     max-width: 100%;
@@ -215,6 +257,15 @@ body {
 
   .laes_mere_om_frivillig {
     padding-left: 1.5rem;
+    margin-left: 10rem;
+  }
+
+  .quote {
+    margin: 2rem;
+    display: flex;
+    place-content: center;
+    flex-flow: nowrap;
+    font-size: 3rem;
   }
 
   /*---------------AKTIVITETER--------------*/
