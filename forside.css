@@ -96,12 +96,12 @@ body {
   .flex_forside {
     display: grid;
     grid-template-columns: auto 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
     margin-top: 20px;
   }
 
   .content1-grid {
     display: flex;
+    grid-template-rows: auto 1fr 1fr 1fr;
   }
 
   .intro_video {
@@ -109,40 +109,5 @@ body {
   }
   .grid_2 {
     display: flex;
-  }
-}
-
-/*---------------FOOTER mobil--------------*/
-
-.her {
-  font-weight: bold;
-}
-.ikoner {
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-.vesterbro {
-  text-decoration: underline;
-}
-
-/*---------------FOOTER desktop--------------*/
-@media (min-width: 800px) {
-  .grid_footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem;
-  }
-  .adresse {
-    grid-column: 2;
-    padding-right: 3rem;
-  }
-
-  .foelg_os {
-    grid-column: 3;
-  }
-
-  .vesterbro {
-    padding-left: 3rem;
   }
 }
