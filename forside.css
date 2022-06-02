@@ -96,13 +96,13 @@ body {
   .flex_forside {
     display: grid;
     grid-template-columns: auto 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
     margin-top: 20px;
   }
-
+  
   .content1-grid {
     display: flex;
   }
+  grid-template-rows: auto 1fr 1fr 1fr;
 
   .intro_video {
     order: 1;
