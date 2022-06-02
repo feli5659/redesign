@@ -95,9 +95,11 @@ body {
 }
 
 .event_billede {
-  padding-bottom: 1rem;
+  padding-bottom: rem;
 }
-
+.facebook {
+  margin-top: 1rem;
+}
 /*-------------------frivillig------------*/
 
 .lodret_frivillig {
@@ -219,6 +221,10 @@ body {
   .event_billede {
     grid-column: 2;
     max-width: 100%;
+  }
+  .facebook {
+    width: 400px;
+    margin-left: 4rem;
   }
   /*---------------FRIVILLIG--------------*/
   .events_3 {
