@@ -97,26 +97,6 @@ html {
 }
 
 
-  /*-----------------FOOTER--------------------*/
-
-  .grid_footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 3rem;
-  }
-  .adresse {
-    grid-column: 2;
-    padding-right: 3rem;
-  }
-
-  .foelg_os {
-    grid-column: 3;
-  }
-
-  .vesterbro {
-    padding-left: 3rem;
-  }
-
 @media (max-width: 800px) {
   .portraet1 {
     width: 80%;
