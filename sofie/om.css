@@ -346,10 +346,16 @@ h1 {
   display: grid;
 }
 .pink_jesus img {
-  grid
   aspect-ratio: 20/12;
 }
 
+.pink_text {
+  color: var(--lyserod);
+}
+
+.historien {
+  grid-column: 2;
+}
 /*----------------------FOOTER----------------------*/
 .her {
   font-weight: bold;
@@ -433,6 +439,7 @@ h1 {
   .box4,
   .box5 {
     grid-column: 2 / span 2;
+    text-align: center;
   }
 
   .box1 {
@@ -440,12 +447,10 @@ h1 {
   }
 
   .box2 {
-    text-align: left;
     padding-inline: 1rem;
     font-size: 1rem;
   }
   .box3 {
-    text-align: left;
     padding-inline: 1rem;
     font-size: 1.3rem;
   }
@@ -454,7 +459,6 @@ h1 {
     font-size: 1.3rem;
   }
   .box5 {
-    text-align: left;
     padding-inline: 1rem;
     font-size: 1.2rem;
   }
@@ -514,20 +518,22 @@ h1 {
     margin-right: var(--space-s);
   }
 
-.pink_jesus {
-  display: grid;
-}
+  .pink_jesus {
+    display: grid;
+    gap: 2rem;
+  }
   .pink_jesus_video {
-    grid-column: 2;
+    grid-column: 1;
     margin-top: 1rem;
   }
-  
-.pink_jesus img {
-  aspect-ratio: 20/12;
-  margin-left: -1rem;
-  
-}
 
+  .pink_jesus img {
+    aspect-ratio: 20/12;
+    grid-column: 2;
+  }
+  .historien {
+    padding-bottom: 1rem;
+  }
 
   /*-----------------FOOTER--------------------*/
 
