@@ -29,6 +29,7 @@ body {
   width: 150px;
   font-weight: bold;
   padding: 1rem;
+  text-align: center;
 }
 
 /*-------------hvad er ukirke?---------------*/
@@ -100,7 +101,6 @@ body {
 .facebook {
   margin-top: 1rem;
 }
-
 
 /*-------------------frivillig------------*/
 
@@ -195,23 +195,22 @@ body {
     width: 30%;
     margin-left: 20rem;
   }
-  .manifest_hvid p {
-    font-size: 1.5rem;
-    line-height: 3rem;
+  .manifest_hvid {
+    padding-inline: 5rem;
   }
   .manifest_border {
     margin-inline: 15rem;
     padding-top: 20px;
   }
   .laes_mere_om_manifest {
-    margin-left: rem;
-    margin-bottom: 1rem;
+    margin-left: 60rem;
+    margin-top: -2rem;
   }
 
   /*---------------Kommende events--------------*/
 
   .events {
-    margin: 4rem;
+    margin: 7rem;
   }
   .events_2 {
     padding: 3rem;
@@ -221,39 +220,37 @@ body {
   }
 
   .events h2 {
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
   }
   .events_2 p {
     grid-column: 1;
     padding-inline: 2rem;
-    font-size: 1.5rem;
-    line-height: 3rem;
   }
   .event_billede {
     grid-column: 2;
-
     max-width: 100%;
-
   }
   .facebook {
     width: 15rem;
     grid-row: 3;
     grid-column: 1;
-    margin-top: -6rem;
+    margin-top: -5rem;
     margin-left: 2rem;
   }
   /*---------------FRIVILLIG--------------*/
   .events_3 {
     display: grid;
     grid-template-columns: 7rem 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 6rem;
     margin-right: 3rem;
+    margin-top: 5rem;
   }
 
   .events_3 p {
     margin-inline: 3rem;
-    font-size: 1.5rem;
-    line-height: 3rem;
+    grid-row: 1;
+    margin-top: 2rem;
   }
   .lodret_frivillig {
     grid-row: 1;
@@ -263,11 +260,13 @@ body {
     max-width: 100%;
     grid-column: 3;
     grid-row: 1;
+    margin-top: 2rem;
   }
 
   .laes_mere_om_frivillig {
-    padding-left: 1.5rem;
-    margin-left: 10rem;
+    grid-column: 2;
+    grid-row: 1;
+    place-self: end;
   }
 
   .quote {
@@ -279,7 +278,26 @@ body {
   }
 
   /*---------------AKTIVITETER--------------*/
+  .aktiviteter_forside {
+    display: grid;
+  }
   .events_4 {
     padding-inline: 6rem;
+    display: grid;
+  }
+  .events_4 {
+    background-color: var(--green);
+    color: white;
+    padding-inline: 7rem;
+    margin-left: 18rem;
+    grid-column: 1;
+    display: grid;
+  }
+  .laes_mere_om_samarbejde {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 10rem;
+    z-index: 1;
   }
 }
