@@ -149,12 +149,12 @@ body {
 }
 .events_4 h2 {
   padding-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
+
 .laes_mere_om_samarbejde {
   z-index: 1;
-  margin-top: 2rem;
-  margin-left: 1rem;
+  margin-top: 3rem;
   margin-bottom: var(--space-l);
 }
 
@@ -294,6 +294,7 @@ body {
     margin-left: 18rem;
     grid-column: 1;
     display: grid;
+    margin-bottom: 6rem;
   }
   .laes_mere_om_samarbejde {
     display: grid;
