@@ -153,7 +153,7 @@ body {
 }
 .laes_mere_om_samarbejde {
   z-index: 1;
-  margin-top: -2rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-bottom: var(--space-l);
 }
@@ -171,9 +171,10 @@ body {
   }
 
   .intro_video {
-    max-width: 90%;
+    max-width: 70%;
     grid-column: 2;
     grid-row: 1 / span 2;
+    place-self: center;
   }
 
   .forside_billede {
@@ -184,6 +185,7 @@ body {
   .forside_copy {
     font-size: 2.5rem;
     margin-top: 0;
+    margin-left: 5rem;
   }
 
   .content1-grid {

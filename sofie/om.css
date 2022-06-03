@@ -320,7 +320,7 @@ h1 {
   border: white solid 2px;
   font-weight: bold;
   margin-top: 2rem;
-  width: 9rem;
+  width: 10rem;
 }
 
 /*--------------------BLIV VIGET I UKIRKE-------------------*/
@@ -339,7 +339,7 @@ h1 {
   border: white solid 2px;
   font-weight: bold;
   margin-top: 2rem;
-  width: 9rem;
+  width: 10rem;
 }
 
 .pink_jesus {
@@ -349,17 +349,12 @@ h1 {
   aspect-ratio: 20/12;
 }
 
-/*----------------------FOOTER----------------------*/
-.her {
-  font-weight: bold;
-}
-.ikoner {
-  display: flex;
-  margin-bottom: 1rem;
+.pink_text {
+  color: var(--lyserod);
 }
 
-.vesterbro {
-  text-decoration: underline;
+.historien {
+  grid-column: 2;
 }
 
 /*--------------------DESKTOPVERSION-------------------*/
@@ -432,6 +427,7 @@ h1 {
   .box4,
   .box5 {
     grid-column: 2 / span 2;
+    text-align: center;
   }
 
   .box1 {
@@ -439,12 +435,10 @@ h1 {
   }
 
   .box2 {
-    text-align: left;
     padding-inline: 1rem;
     font-size: 1rem;
   }
   .box3 {
-    text-align: left;
     padding-inline: 1rem;
     font-size: 1.3rem;
   }
@@ -453,7 +447,6 @@ h1 {
     font-size: 1.3rem;
   }
   .box5 {
-    text-align: left;
     padding-inline: 1rem;
     font-size: 1.2rem;
   }
@@ -494,7 +487,7 @@ h1 {
     font-size: 3rem;
     margin-left: -2rem;
   }
-  .læs_mere_friv {
+  .laes_mere_friv {
     grid-column: 1;
     grid-row: 1;
     place-self: end start;
@@ -513,20 +506,22 @@ h1 {
     margin-right: var(--space-s);
   }
 
-.pink_jesus {
-  display: grid;
-}
+  .pink_jesus {
+    display: grid;
+    gap: 2rem;
+  }
   .pink_jesus_video {
-    grid-column: 2;
+    grid-column: 1;
     margin-top: 1rem;
   }
-  
-.pink_jesus img {
-  aspect-ratio: 20/12;
-  margin-left: -1rem;
-  
-}
 
+  .pink_jesus img {
+    aspect-ratio: 20/12;
+    grid-column: 2;
+  }
+  .historien {
+    padding-bottom: 1rem;
+  }
 
   /*-----------------FOOTER--------------------*/
 
