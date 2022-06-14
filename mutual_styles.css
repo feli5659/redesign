@@ -4,6 +4,7 @@
   cursor: revert;
   /*overstående nustiller alle HTML regler for H1, h2 mm.*/
   box-sizing: border-box;
+  /* ovenstående inkluderer padding og border i elementets totale højde og bredde */
 }
 html {
   /* farve variabler */
