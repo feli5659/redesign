@@ -89,11 +89,11 @@ footer {
 /* fonte */
 @font-face {
   font-family: lemonmilk;
-  src: url(/fonts/lemonmilk-medium-webfont.woff2);
+  src: url(lemonmilk-medium-webfont.woff2);
 }
 @font-face {
   font-family: dincondensed;
-  src: url(/fonts/din-bold-webfont.woff2);
+  src: url(din-bold-webfont.woff2);
 }
 
 /* header */
@@ -188,7 +188,6 @@ header > div {
   text-align: center;
   cursor: pointer;
   margin-bottom: 3rem;
-  
 }
 .her p:hover {
   border-bottom: 3px solid white;
